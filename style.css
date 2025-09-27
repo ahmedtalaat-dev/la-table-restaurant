@@ -1,0 +1,379 @@
+/* ================= GLOBAL STYLES ================= */
+html, body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.intro {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Global container reset */
+.container {
+  padding: 0 !important;
+}
+
+/* ================= HOME SECTION ================= */
+.home {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/gallery1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* Navbar styles */
+.home header nav {
+  margin: 0 4rem;
+}
+
+.home header nav ul {
+  gap: 10px;
+}
+
+.home header nav ul li a {
+  color: white;
+  font-weight: 600;
+  transition: 0.5s;
+  width: fit-content;
+  border-bottom: 2px solid transparent;
+}
+
+.home header nav ul li a:hover {
+  border-bottom: 2px solid orange;
+  color: white;
+}
+
+/* Intro text */
+.home .intro {
+  margin-top: 150px;
+}
+
+.home .intro h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.home .intro h1 span {
+  color: goldenrod;
+}
+
+.home .intro p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.home .intro a {
+  border: white 1px solid;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.home .intro a:hover {
+  background: goldenrod;
+}
+
+/* Navbar toggler customization */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22 M4 15h22 M4 23h22'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1.5em 1.5em;
+}
+
+.navbar-toggler {
+  border-color: gray !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  border-color: #fff !important;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
+}
+
+/* ================= ABOUT SECTION ================= */
+#about {
+  min-height: 100vh;
+  background: rgb(235, 232, 232);
+  padding: 1rem 0;
+}
+
+#about .intro {
+  margin-bottom: 3rem;
+}
+
+#about .intro h1 {
+  color: orange;
+}
+
+#about .history {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+#about .history .text {
+  max-width: 600px;
+}
+
+#about .history .images img {
+  width: 400px;
+}
+
+/* ================= OFFERS SECTION ================= */
+#offers {
+  min-height: 100vh;
+  background-image: url(img/offer-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  padding-inline: 20px;
+}
+
+#offers .intro {
+  color: white;
+}
+
+#offers .intro h1 {
+  color: orange;
+}
+
+#offers .pasta {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#offers .pasta div {
+  max-width: 330px;
+  text-align: center;
+  color: white;
+  margin: 30px;
+}
+
+#offers .pasta div h1 {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+#offers .pasta div img {
+  width: 200px;
+}
+
+/* ================= MENU SECTION ================= */
+#menu {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+
+#menu .intro h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#menu .intro p {
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+#menu .card {
+  border: none;
+  transition: 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#menu .card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+#menu .card-body {
+  padding: 20px;
+}
+
+#menu .card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+#menu .card-text {
+  font-size: 0.95rem;
+  color: #555;
+  min-height: 60px;
+}
+
+#menu .card p.text-primary {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#menu .card .price {
+  color: orange !important;
+}
+
+#menu .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 2px 5px orange !important;
+}
+
+/* ================= GALLERY SECTION ================= */
+#gallery {
+  background-image: url(img/offer-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#gallery h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f8f9fa;
+}
+
+#gallery p {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+#gallery .carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* ================= CONTACT SECTION ================= */
+#contact {
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+#contact h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#contact p {
+  color: #555;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  box-shadow: none !important;
+  border: 1px solid #ffc107;
+}
+
+#contact .form-control {
+  border-radius: 10px;
+  padding: 12px;
+}
+
+#contact button {
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+/* ================= FOOTER SECTION ================= */
+.big-footer {
+  background: #111;
+  color: #fff;
+  padding: 50px 20px 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  color: goldenrod;
+  font-size: 18px;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: goldenrod !important;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: goldenrod;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #444;
+  font-size: 14px;
+}
+
+/* ================= MEDIA QUERIES ================= */
+@media (max-width: 700px) {
+  #about .history .images img {
+    width: 300px;
+  }
+  .home header nav {
+    margin: 0 1rem;
+  }
+  #menu, #contact, #gallery {
+    padding: 0 20px;
+  }
+}
