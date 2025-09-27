@@ -46,7 +46,7 @@ La-Table/
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/la-table.git
+   git clone https://github.com/ahmedtalaat-dev/la-table-restaurant.git
    ```
 2. Open index.html in your preferred browser.
 
