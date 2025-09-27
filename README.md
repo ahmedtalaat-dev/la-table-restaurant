@@ -1,11 +1,11 @@
-# La Table Restaurant Website
+# 🍽 La Table Restaurant Website
 
-![La Table Website](img/logo.png) <!-- شعار الموقع في الأعلى -->
+![La Table Website](img/logo.png)
 
 ## Overview
 La Table is a fine dining restaurant website showcasing its history, menu, special offers, gallery, and contact information. Built with **HTML**, **CSS**, and **Bootstrap 5**, it offers a responsive design for both desktop and mobile users.
 
-## Features
+## 🚀 Features
 - **Home Section:** Welcoming intro with a call-to-action button.
 - **About Section:** Restaurant history with an image.
 - **Offers Section:** Special dishes with images.
@@ -14,7 +14,7 @@ La Table is a fine dining restaurant website showcasing its history, menu, speci
 - **Contact Section:** Contact info and a functional form.
 - **Footer:** Quick links, opening hours, social media icons.
 
-## Project Structure
+## 📂 Project Structure
 ```text
 La-Table/
 │
@@ -50,7 +50,7 @@ La-Table/
    ```
 2. Open index.html in your preferred browser.
 
-## Screenshots
+## 📸 Screenshots
 
 ### Home Section
 ![Home](img/home.png)
@@ -71,7 +71,7 @@ La-Table/
 - **Bootstrap 5** – Responsive framework for layout and components.  
 - **Font Awesome 6** – Icon library for social media and UI icons.
 
-## Author
+## 👓 Author
 
 **Ahmed Talaat**  
 Website & Design: *La Table Restaurant*
